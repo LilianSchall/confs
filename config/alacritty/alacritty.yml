@@ -1,0 +1,34 @@
+# config by Evan Koehler
+
+window:
+  # adds padding to the terminal (looks great with rounded corners)
+  padding:
+    x: 0
+    y: 0
+
+  # sets background opacity to 0.1 (10%)
+  opacity: 0.2
+
+
+    #font:
+  # I'm using JetBrains fonts, which I recommend, but feel free to edit it !
+  #normal:
+  #  style: Medium
+  # family: Verdana
+  # sets font size to 14px
+  # size: 14.0
+  font:
+    normal:
+      family: "MesloLGS NF"
+      size: 36.0
+colors:
+  # sets background color to light gray (#eee) and font color to white (#fff)
+  primary:
+    background: '#aaaaaa'
+    foreground: '#ffffff'
+
+shell:
+  # sets my shell at startup (mine is fish but do not hesitate to put yours instead)
+  program: /etc/profiles/per-user/s3l4h/bin/zsh
+  args:
+    - --login
