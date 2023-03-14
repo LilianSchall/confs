@@ -1,0 +1,5 @@
+xrdb -merge ~/.Xresources
+xrandr --newmode "3440x1440" 319.75  3440 3488 3520 3600  1440 1443 1453 1481 +hsync -vsync
+xrandr --addmode Virtual-1 3440x1440
+xrandr -s 3440x1440
+feh --fill --bg-scale $HOME/Pictures/Light.jpg
