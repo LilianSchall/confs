@@ -14,9 +14,10 @@ focus_follows_mouse no
 # starting services
 exec --no-startup-id setxkbmap us
 exec --no-startup-id redshift -O 4000
-exec --no-startup-id feh --fill --bg-scale $HOME/Pictures/Light.jpg
+exec --no-startup-id feh --fill --bg-scale $HOME/Pictures/fire.jpg
 exec --no-startup-id bash ~/.Xinitrc
 exec --no-startup-id picom --config $HOME/.config/picom/picom.conf
+exec --no-startup-id bash ~/.config/polybar/launch.sh --docky
 
 # my keybindings
 bindsym $mod+o exec i3lock-fancy-rapid 5 3
@@ -26,7 +27,7 @@ bindsym $mod+e exec nautilus
 bindsym $mod+q kill
 bindsym Print exec spectacle
 # bindsym $mod+d exec rofi -show drun -run-shell-command '{terminal} -e fish -ic "{cmd} && read"'
-bindsym $mod+d exec --no-startup-id dmenu_run
+bindsym $mod+d exec --no-startup-id rofi -show drun
 
 set $mod Mod4
 
