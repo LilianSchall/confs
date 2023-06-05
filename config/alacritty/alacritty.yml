@@ -7,7 +7,7 @@ window:
     y: 0
 
   # sets background opacity to 0.1 (10%)
-  opacity: 0.2
+  opacity: 0.7
 
 
     #font:
@@ -24,7 +24,7 @@ window:
 colors:
   # sets background color to light gray (#eee) and font color to white (#fff)
   primary:
-    background: '#aaaaaa'
+    background: '#242424'
     foreground: '#ffffff'
 
 shell:
